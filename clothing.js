@@ -87,13 +87,19 @@ const  displayproduct = (arr) => {
           <button>Buy Now</button>
           <button class="add-to-cart"> Add to Cart</button>
         </div>
-          
-        
       `
-
      productContainer.append(card);
    }
 }
+
+const searchinput = document.querySelector(`input[type="search"]`)
+search.addEventListener("keyup",()=>{
+  const search = searchinput.value.trim().toLowerCase()
+   const filtered = product.filter((product) => product.name.toLowerCase().includes(search))
+   displayproduct(filtered)
+}) 
+
+
 const filterButtons = document.querySelectorAll(".filter-button")
 for( let i = 0; i<filterButtons.length; i++ ){
    filterButtons[i].addEventListener('click', () =>{
