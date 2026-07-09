@@ -336,6 +336,21 @@ header{
     width: 90px;
     margin-top: 10px;
 }
+
+
+  #corusal-section{
+      height: 50vh;
+  }
+   
+
+  .corusal-card img{
+      height: 50vh;
+  }
+
+  .corusal-container{
+        height: 50vh;
+
+  }
     #Hamburger{
         display: block;
         background: transparent;

@@ -111,7 +111,7 @@ corusal()
 
 
 const searchinput = document.querySelector(`input[type="search"]`)
-search.addEventListener("keyup",()=>{
+searchinput.addEventListener("keyup",()=>{
   const search = searchinput.value.trim().toLowerCase()
    const filtered = product.filter((product) => product.name.toLowerCase().includes(search))
    displayproduct(filtered)
