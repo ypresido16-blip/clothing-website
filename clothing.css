@@ -313,9 +313,10 @@ header{
         height: 200px;
     }
     #logo-img {
-    margin: 5px;
+   
     height: 90px;
     width: 90px;
+    margin-top: 10px;
 }
     #Hamburger{
         display: block;
