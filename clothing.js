@@ -92,6 +92,24 @@ const  displayproduct = (arr) => {
    }
 }
 
+const corusalWrapper = document.querySelector(".corusal-wrapper")
+const corusalCard = document.querySelectorAll(".corusal-card")
+
+let currentindex = 0;
+const corusal = () => {
+    setInterval(() => {
+    currentindex++;
+    if (currentindex >= corusalCard.length){
+        currentindex = 0;
+     }
+     corusalWrapper.style.transform = `translateX(-${currentindex * 100}%)`
+    }, 3000);
+   
+}
+
+corusal()
+
+
 const searchinput = document.querySelector(`input[type="search"]`)
 search.addEventListener("keyup",()=>{
   const search = searchinput.value.trim().toLowerCase()

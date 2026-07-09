@@ -11,10 +11,10 @@ header{
     
 }
 
-main{ 
-    display: flex;
-    height: 100vh;
-    position: relative;
+#corusal-section{ 
+    height: 70vh;
+    margin-top: -7rem;
+    
 }
 
 
@@ -57,16 +57,29 @@ main{
 
 
 
+.corusal-container{
+    overflow: hidden;
 
-#first-section{
-  width: 50%;
-  height: 100vh;
-  background-image: url("./burgess-milner-OYYE4g-I5ZQ-unsplash.jpg");
-  background-repeat: no-repeat; 
-  background-size: cover;
-  background-position: center;
-   max-width: 700px;
+}
 
+.corusal-wrapper{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.corusal-card {
+    min-width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.corusal-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: ;
+
+    
 }
 .text-cont{
     display: flex;
@@ -80,45 +93,6 @@ main{
 
  
 
-}
-#second-section{
-    width: 50%;
-    height: 100vh;
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-image: url(./28569778882172222.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    
-}
-.main-h2{
-     color: #d4af37;
-     font-size: 50px;
-     font-weight: bold;
-     font-family: "Bebas Neue", sans-serif;
-     font-optical-sizing: auto;
-     font-style: normal;
-
-}
-.main-h1{
-    color: #d4af37;
-     font-size: 30px;
-     font-weight: bold;
-     font-family: "Cormorant Garamond", serif;
-     font-optical-sizing: auto;
-     font-style: normal;
-}
-.main-p{
-     color: whitesmoke;
-     font-size: 20px;
-     font-weight: bold;
-     font-family: "Cormorant Garamond", serif;
-     font-optical-sizing: auto;
-     font-style: normal;
 }
 #shop-now{
     border: none;
@@ -142,12 +116,7 @@ main{
 }
   
 
-#first-section::before{
-   content: '';
-   position: absolute;
-   inset: 0;
-   background: rgba(0,0,0,0.4);
-}
+
 
 #shop-now:hover{
     background-color: rgba(255, 217, 0, 0.534);
