@@ -118,7 +118,17 @@ const Sidebar = document.getElementById("side-bar")
 Hamburger.addEventListener("click", (e) => {
       e.stopPropagation()
     Sidebar.classList.toggle("active")
- 
+    Hamburger.classList.toggle("active")
+    console.log("clicked")
+})
+
+document.body.addEventListener("click", (e) => {
+    if( !Sidebar.contains (e.target) && Sidebar.classList.contains("active") ){
+        Sidebar.classList.remove("active")
+        Hamburger.classList.remove("active")
+       
+    }
+   console.log(e.target)
 })
 
 const searchinput = document.querySelector(`input[type="search"]`)
@@ -128,13 +138,7 @@ searchinput.addEventListener("keyup",()=>{
    displayproduct(filtered)
 }) 
 
-document.body.addEventListener("click", (e) => {
-    if( !Sidebar.contains (e.target) && Sidebar.classList.contains("active") ){
-        Sidebar.classList.remove("active")
-      
-    }
-  
-})
+
 
 const filterButtons = document.querySelectorAll(".filter-button")
 for( let i = 0; i<filterButtons.length; i++ ){
