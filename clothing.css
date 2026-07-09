@@ -24,13 +24,12 @@ header{
     right: -100%;
     width: 65%;
     height: 100vh;
-    background:transparent;
-    border: 2px solid #d4af37;
+    background-color: rgba(0, 0, 0, 0.845);
     z-index: 1000;
     transition: right 0.2s ease;
     padding: 2rem;
-     backdrop-filter: blur(10px);
-     border-radius: 30px;
+    
+  
  
 }
 
