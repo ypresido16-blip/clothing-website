@@ -343,5 +343,14 @@ header{
     width: 150px;
    
 }
+#cart-icon{
+   text-decoration: none;
+   color: white;
+   font-size: 1rem;
+   
 }
 
+#cart-icon :hover{
+    color: gold;
+}
+}
