@@ -110,6 +110,17 @@ const corusal = () => {
 corusal()
 
 
+const Hamburger = document.getElementById("Hamburger")
+
+const Sidebar = document.getElementById("side-bar")
+
+
+Hamburger.addEventListener("click", (e) => {
+      e.stopPropagation()
+    Sidebar.classList.toggle("active")
+ 
+})
+
 const searchinput = document.querySelector(`input[type="search"]`)
 searchinput.addEventListener("keyup",()=>{
   const search = searchinput.value.trim().toLowerCase()
@@ -117,6 +128,13 @@ searchinput.addEventListener("keyup",()=>{
    displayproduct(filtered)
 }) 
 
+document.body.addEventListener("click", (e) => {
+    if( !Sidebar.contains (e.target) && Sidebar.classList.contains("active") ){
+        Sidebar.classList.remove("active")
+      
+    }
+  
+})
 
 const filterButtons = document.querySelectorAll(".filter-button")
 for( let i = 0; i<filterButtons.length; i++ ){
