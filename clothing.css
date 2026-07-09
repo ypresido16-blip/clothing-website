@@ -17,11 +17,6 @@ header{
 }
 
 
-#corusal-section{ 
-    height: 70vh;
-    margin-top: -7rem;
-    
-}
 
 
 
@@ -81,30 +76,7 @@ header{
     align-items: center;
 }
 
-.corusal-container{
-    overflow: hidden;
 
-}
-
-.corusal-wrapper{
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-}
-
-.corusal-card {
-    min-width: 100%;
-    height: 100vh;
-    object-fit: cover;
-}
-
-.corusal-card img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
- 
-
-    
-}
 .text-cont{
     display: flex;
     flex-direction: column;
@@ -158,6 +130,32 @@ header{
     font-weight: bold;
     font-size: 1.2rem;
     
+}
+
+#corusal-section {
+    height: 80vh;
+}
+
+.corusal-container {
+    overflow: hidden;
+    height: 80vh;
+}
+
+.corusal-wrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    height: 100%;
+}
+
+.corusal-card {
+    min-width: 100%;
+    height: 100%;
+}
+
+.corusal-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 #third-section{
     width: 100%;
@@ -338,19 +336,27 @@ header{
 }
 
 
-  #corusal-section{
-      height: 50vh;
-  }
-   
+  #corusal-section {
+    height: 50vh;
+}
 
-  .corusal-card img{
-      height: 50vh;
-  }
+.corusal-container {
+    height: 50vh;
+}
 
-  .corusal-container{
-        height: 50vh;
+.corusal-wrapper {
+    height: 100%;
+}
 
-  }
+.corusal-card {
+    height: 100%;
+}
+
+.corusal-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
     #Hamburger{
         display: block;
         background: transparent;
