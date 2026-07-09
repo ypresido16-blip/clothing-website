@@ -22,12 +22,15 @@ header{
     position: fixed;
     top: 0;
     right: -100%;
-    width: 80%;
+    width: 65%;
     height: 100vh;
-    background-color: black;
+    background:transparent;
+    border: 2px solid #d4af37;
     z-index: 1000;
-    transition: right 0.3s ease;
+    transition: right 0.2s ease;
     padding: 2rem;
+     backdrop-filter: blur(10px);
+     border-radius: 30px;
  
 }
 
