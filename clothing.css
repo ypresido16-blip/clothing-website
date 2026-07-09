@@ -313,7 +313,7 @@ header{
         height: 200px;
     }
     #logo-img {
-    margin-top: 0;
+    margin: 5px;
     height: 90px;
     width: 90px;
 }
