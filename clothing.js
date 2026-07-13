@@ -2,7 +2,7 @@
 const product = [
     {
         id: 1,
-        name: "akara-dress",
+        name: "akara dress",
         type: "handmade",
         category: "women",
         image: "./akara.png"
@@ -10,57 +10,57 @@ const product = [
     },
     {
         id: 2,
-        name: "akara-gown",
+        name: "akara gown",
         type: "handmade",
         category: "women",
         image: "./the best.png"
     },
     {
         id: 3,
-        name: "adult-footwear",
-        type: "ready-made",
+        name: "adult footwear",
+        type: "ready made",
         category: "men",
         image: "./import2.jpg"
     },
     { 
         id: 4,
-        name:"adult-footwear",
-        type: "ready-made",
+        name:"adult footwear",
+        type: "ready made",
         category: "men",
         image:"./import.jpg"
     },
     {
         id: 5,
-        name: "kids-readymade-footwear",
-        type: "ready-made",
+        name: "kids readymade-footwear",
+        type: "ready made",
         category: "kids",
         image: "./import3.jpg"
     },
     {
         id: 6,
-        name: "kids-readymade-footwear",
-        type: "ready-made",
+        name: "kids readymade-footwear",
+        type: "ready made",
         category: "kids",
         image: "./import.jpg"
     },
     {
         id: 7,
-        name: "adult-handmade-footwear",
+        name: "adult handmade-footwear",
         type: "handmade",
         category: "men",
         image: "./import3.jpg"
     },
     {
         id: 8,
-        name: "adult-clothing",
-        type: "ready-made",
+        name: "adult clothing",
+        type: "ready made",
         category: "men",
         image: "./import.jpg"
     },
     {
         id: 9,
-        name: "adult-handmade-footwear",
-        type: "ready-made",
+        name: "adult handmade-footwear",
+        type: "ready made",
         category: "men",
         image: "./import2.jpg"
     }
