@@ -5,7 +5,7 @@ const product = [
         name: "akara dress",
         type: "handmade",
         category: "women",
-        image: "./akara.png"
+        image: "./the best.jpg"
 
     },
     {
@@ -13,7 +13,7 @@ const product = [
         name: "akara gown",
         type: "handmade",
         category: "women",
-        image: "./the best.png"
+        image: "./the best.jpg"
     },
     {
         id: 3,
@@ -101,6 +101,10 @@ const corusal = () => {
     currentindex++;
     if (currentindex >= corusalCard.length){
         currentindex = 0;
+        corusalWrapper.style.transition = "none";
+     }
+     else{
+        corusalWrapper.style.transition = "transform 0.5s ease-in-out";
      }
      corusalWrapper.style.transform = `translateX(-${currentindex * 100}%)`
     }, 3000);

@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 *{
     margin: 0;
     padding: 0;
@@ -5,9 +7,14 @@
 }
 header{
     background-color: rgb(0, 0, 0);
-    position: sticky;
+    position: fixed;
+    width: 100%;
     top: 0;
-    z-index: 1;
+    left: 0;
+    z-index: 1000;
+   
+  
+    
     
 }
 
@@ -36,15 +43,8 @@ header{
 .active {
     right: 0;
 }
- #logo-imgg{
-    height: 25vh;
-    width: 15rem;
-  
-   
-}
-nav{
 
-}
+
 .side-bar nav ul {
     list-style: none;
     display: flex;
@@ -57,6 +57,12 @@ nav{
    
 }
 
+#logo-img{
+   height: 80px;
+   width: 80px;
+   margin-top: -1.2rem;
+   
+}
 
 
 hr{
@@ -137,11 +143,13 @@ hr{
 }
 
 #cart-icon{
-    color: white;
+    color: greenyellow;
     position: relative;
     cursor: pointer;
-    margin-top: 13px;
+    margin-top: 20px;
+ 
 }
+
 #cartCount{
     position: absolute;
     top: -10px;
@@ -360,13 +368,8 @@ hr{
     display: flex;
     gap: 10px;
 }
-#logo-img{
-    border-radius: 50%;
-    margin-top: -60px;
-    height: 180px;
-    width: 180px;
-    overflow: visible;
-}
+
+
 .product-info{
     display: flex;
    justify-content: space-between;
@@ -409,10 +412,10 @@ hr{
         height: 200px;
     }
     #logo-img {
-   
-    height: 90px;
-    width: 90px;
-    margin-top: 10px;
+    margin-top: 0;
+    height: 80px;
+    width: 80px;
+    
 }
 
 

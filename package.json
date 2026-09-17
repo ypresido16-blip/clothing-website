@@ -1,0 +1,27 @@
+{
+  "name": "clothing-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "clothing.js",
+  "scripts": {
+    "dev": "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ypresido16-blip/clothing-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ypresido16-blip/clothing-website/issues"
+  },
+  "homepage": "https://github.com/ypresido16-blip/clothing-website#readme",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "@tailwindcss/vite": "^4.3.3",
+    "tailwindcss": "^4.3.3",
+    "vite": "^8.3.0"
+  }
+}
